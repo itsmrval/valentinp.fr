@@ -1,0 +1,18 @@
+$default-family: 'Open Sans', sans-serif;
+$default-font-size: 14px;
+$primary: #12b772;
+$linkedin: #0e76a8;
+$github: #171515;
+$gray: rgb(127, 141, 170);
+$dark: #212529;
+
+$theme-colors: (
+  "linkedin": $linkedin,
+  "github": $github,
+  "primary": $primary,
+  "gray": $gray,
+  "dark": $dark
+);
+
+@import "bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");

@@ -1,0 +1,27 @@
+{
+  "name": "valentinp.fr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core":  "latest",
+    "@fortawesome/free-brands-svg-icons": "latest",
+    "@fortawesome/free-regular-svg-icons": "latest",
+    "@fortawesome/free-solid-svg-icons": "latest",
+    "@fortawesome/vue-fontawesome": "latest",
+    "bootstrap": "latest",
+    "core-js": "latest",
+    "vue": "latest",
+    "vue-meta": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-vuex": "latest",
+    "@vue/cli-service": "latest",
+    "prettier": "latest",
+    "sass": "latest",
+    "sass-loader": "latest"
+  }
+}
