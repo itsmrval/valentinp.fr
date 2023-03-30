@@ -5,9 +5,9 @@
         <font-awesome-icon :icon="link.icon.split(' ')"/>
       </a>
     </div>
-    <div class="text-center p-3">© {{ new Date().getFullYear() }} - Valentin PUCCETTI</div>
+    <div class="text-center p-3">© {{ new Date().getFullYear() }} - Valentin PUCCETTI - NodeJS v</div>
   </footer>
 </template>
 <script>
-export default { props: ["links"] };
+  export default { props: ["links"] };
 </script>

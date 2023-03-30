@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vue-cli-service serve"
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core":  "latest",
+    "@fortawesome/fontawesome-svg-core": "latest",
     "@fortawesome/free-brands-svg-icons": "latest",
     "@fortawesome/free-regular-svg-icons": "latest",
     "@fortawesome/free-solid-svg-icons": "latest",
     "@fortawesome/vue-fontawesome": "latest",
     "bootstrap": "latest",
     "core-js": "latest",
+    "serve": "^14.2.0",
     "vue": "latest",
     "vue-meta": "latest",
     "vue-router": "latest"

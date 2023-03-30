@@ -1,4 +1,5 @@
 <template>
+
   <Navbar :links="main.links"><span class="text-primary">> # ~ / </span>valentinp.fr</Navbar>
   <IndexSection id="top" src="home.svg">
     <template v-slot:th1>Bienvenue 👋</template>
@@ -34,6 +35,7 @@ import projects from "@/config/projects"
 import Btn from "@/components/structure/Btn.vue";
 import Underline from "@/components/structure/Underline.vue";
 import ProjectsList from "../components/projects/ProjectsList";
+
 
 export default {
   data: () => {

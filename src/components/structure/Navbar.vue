@@ -4,9 +4,6 @@
       <a class="logo navbar-brand d-flex align-items-center" href="#">
         <slot/>
       </a>
-      <button aria-controls="navbar4" aria-expanded="false"  class="navbar-toggler" data-bs-target="#navbar4" data-bs-toggle="collapse" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
       <div class="collapse navbar-collapse bg-white" id="navbar4">
         <ul class="navbar-nav ms-auto">
@@ -24,10 +21,6 @@ export default { props: ["links"] };
 <style lang="scss" scoped>
 * {
   font-weight: 600;
-}
-
-.nav-link.active {
-  border-bottom: 2px solid $primary;
 }
 
 .logo {
