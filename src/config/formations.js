@@ -1,6 +1,6 @@
 const formations = [
   {
-    date: "Sept 2023 - aujourd'hui",
+    date: "Sept 2023 - ",
     diplome: "BUT réseaux et télécommunications",
     school: "?",
     description: [

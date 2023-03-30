@@ -13,6 +13,7 @@
   </IndexSection>
 
   <SkillsList id="skills" :skills="skills" />
+  <ProjectsList id="projects" :projects="projects"/>
   <FormationsList id="formations" :formations="formations" />
   <Footer :links="main.socials"/>
 </template>
@@ -24,17 +25,20 @@ import IndexSection from "@/components/index/IndexSection.vue";
 import SkillsList from "@/components/skills/SkillsList.vue";
 import FormationsList from "@/components/formations/FormationsList.vue";
 
+
 import skills from "@/config/skills";
 import main from "@/config/main";
 import formations from "@/config/formations";
+import projects from "@/config/projects"
 
 import Btn from "@/components/structure/Btn.vue";
 import Underline from "@/components/structure/Underline.vue";
+import ProjectsList from "../components/projects/ProjectsList";
 
 export default {
   data: () => {
-    return { main, skills, formations };
+    return { main, skills, formations, projects };
   },
-  components: {  Navbar, Footer, IndexSection, SkillsList, FormationsList, Btn, Underline },
+  components: {ProjectsList,  Navbar, Footer, IndexSection, SkillsList, FormationsList, Btn, Underline },
 };
 </script>
